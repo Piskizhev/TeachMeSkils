@@ -3,7 +3,7 @@ body{
 
 }
 .awesome{
-    padding: 0 143px 109px 143px ;
+    padding: 0 109px 109px 109px ;
     margin: 0 auto;
 }
 .title{
@@ -26,18 +26,23 @@ body{
 .subtitle{
     margin: 0 auto; 
     text-align: center;
-  
     font-size: 14px;
     color: #86878B;
     margin-bottom: 67px;
-
+}
+.infoblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .sub_block{
     min-height: 250px;
     max-width: 350px;
-    float:left;
+    margin: 0 32px;
 }
 .awesome_img{
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     height: 70px;
     width: 70px;
