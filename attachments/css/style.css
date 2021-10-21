@@ -63,11 +63,12 @@ body{
     margin-bottom: 16px;
 }
 .sub_block_descr{
+    width: 350px;
     font-size: 14px;
     line-height: 19px;
-    text-align: center;
     color: #000000;
     text-align: center;
+
 }
 
 @font-face {
