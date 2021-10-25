@@ -1,19 +1,21 @@
 body{
-    font-family: "RalewayRegular";
-
-}
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;}
 .awesome{
     padding: 0 109px 109px 109px ;
     margin: 0 auto;
 }
-.title{
+.title h1{
    
     margin: 0 auto;
     padding-top: 100px;
     margin-bottom: 25px;
+    font-family: Raleway;
     font-size: 36px;
+    font-style: normal;
+    font-weight: normal;
     text-align: center;
-    color: #000000;
+    color: #212121;
 }
 .line{
     margin: 0 auto;
@@ -23,9 +25,12 @@ body{
     border: 1px solid #E72424;
     margin-bottom: 30px;
 }
-.subtitle{
+.subtitle h2{
     margin: 0 auto; 
     text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
     color: #86878B;
     margin-bottom: 67px;
@@ -50,11 +55,13 @@ body{
     border-radius: 50%;
     margin-bottom: 30px;
 }
-.sub_block img{
-    margin: 20px 23px;
+.awesome_img img{
+    margin: auto;
 
 }
 .sub_block_name{
+    font-family: "Open Sans";
+    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
@@ -63,17 +70,20 @@ body{
     margin-bottom: 16px;
 }
 .sub_block_descr{
-    width: 350px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
     line-height: 19px;
+    width: 350px;
     color: #000000;
     text-align: center;
 
 }
 
-@font-face {
+/* @font-face {
     font-family: "RalewayRegular"; 
     src: url("/attachments/fonts/RalewayRegular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
-    } 
+    }  */
