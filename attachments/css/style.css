@@ -5,7 +5,7 @@ body{
     padding: 0 109px 109px 109px ;
     margin: 0 auto;
 }
-.title h1{
+.title {
    
     margin: 0 auto;
     padding-top: 100px;
@@ -17,15 +17,12 @@ body{
     text-align: center;
     color: #212121;
 }
-.line{
-    margin: 0 auto;
+hr{
     width: 64px;
-    left: 668px;
-    top: 163px;
     border: 1px solid #E72424;
     margin-bottom: 30px;
 }
-.subtitle h2{
+.subtitle{
     margin: 0 auto; 
     text-align: center;
     font-family: "Open Sans";
@@ -80,7 +77,50 @@ body{
     text-align: center;
 
 }
+.stylish {
+    min-height: 326px;
+    background: url(../img/stylish_bg.png) center center no-repeat;
+}
 
+.gray_bg{
+    background-color: rgba(0,0,0,0.65);
+    width: 100%;
+    min-height: 326px;
+}
+
+.hr_white{
+    border-color: #FFFFFF;
+}
+
+.wht_title{
+    color: #FFFFFF;
+    padding-top: 76px;
+    margin-bottom: 48px;
+}
+.wht_subtitle{
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    width: 135px;
+    height: 42px;
+    background: none ;
+    border: 1px solid #FFFFFF;
+    padding: 11px 26px;
+    font-family:"Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 38px;
+    
+}
 /* @font-face {
     font-family: "RalewayRegular"; 
     src: url("/attachments/fonts/RalewayRegular.ttf") format("truetype"); 
