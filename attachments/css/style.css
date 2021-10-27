@@ -139,6 +139,52 @@ footer img{
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 18px;
 }
+
+.pricing{
+    background-color: #F5F5F5;
+    min-height: 800px;
+    padding: 0 112px 60px 112px;                           /*Вопросы по отпуступам */
+}
+
+.padding-80{
+    padding-top: 80px;
+}
+.price-box{
+    display: flex;
+    justify-content: space-around;
+}
+.pricelist{
+    list-style-type: none;
+}
+.pricelist li{
+    margin-top: 4px;
+    background-color: #fff;
+    color: #86878B;
+    width: 340px;
+    height: 40px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricelist li:nth-child(-n+3){
+    margin-top: 2px;
+    background-color:#333333;
+}
+.pricelist li:nth-child(2){
+    height: 100px;
+    font-weight:500;
+    font-size: 36px;
+}
+.pricelist li:nth-child(-n+2){
+    color: #fff;
+}
+
+
+
 /* @font-face {
     font-family: "RalewayRegular"; 
     src: url("/attachments/fonts/RalewayRegular.ttf") format("truetype"); 
