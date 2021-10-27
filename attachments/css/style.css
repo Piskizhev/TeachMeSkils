@@ -151,7 +151,7 @@ footer img{
 }
 .price-box{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .pricelist{
     list-style-type: none;
@@ -182,7 +182,59 @@ footer img{
 .pricelist li:nth-child(-n+2){
     color: #fff;
 }
+.customer_block{
+    min-width: 298px;
 
+}
+.infoblock .comment{
+    background-color: #E2E2E2;
+    width: 298px;
+    height: 110px;
+    border-radius: 7px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+
+}
+.c_info{
+    display: flex;
+    justify-content: center;
+}
+
+
+.c_info .name{
+    width: 97px;
+    height: 27px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: end;
+    color: #333333;
+}
+.c_info .work{
+    width: 59px;
+    height: 19px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+
+}
 
 
 /* @font-face {
