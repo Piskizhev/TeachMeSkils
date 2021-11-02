@@ -143,20 +143,32 @@ footer img{
 .pricing{
     background-color: #F5F5F5;
     min-height: 800px;
+    max-width: 1400px;
     padding: 0 112px 60px 112px;                           /*Вопросы по отпуступам */
 }
 
 .padding-80{
     padding-top: 80px;
 }
+
+/* .margin-15{
+    margin-top: -15px;
+} */
+
+.space-around{
+    justify-content: space-around;
+}
 .price-box{
     display: flex;
     justify-content: space-evenly;
 }
-.pricelist{
+.price-box ul{
     list-style-type: none;
 }
-.pricelist li{
+.price-box ul:nth-child(2){
+    margin-top: -15px;
+}
+.price-box li{
     margin-top: 4px;
     background-color: #fff;
     color: #86878B;
@@ -170,22 +182,21 @@ footer img{
     align-items: center;
     justify-content: center;
 }
-.pricelist li:nth-child(-n+3){
+.price-box li:nth-child(-n+3){
     margin-top: 2px;
     background-color:#333333;
 }
-.pricelist li:nth-child(2){
+.price-box li:nth-child(2){
     height: 100px;
     font-weight:500;
     font-size: 36px;
 }
-.pricelist li:nth-child(-n+2){
+.price-box li:nth-child(-n+2){
     color: #fff;
 }
-.customer_block{
-    min-width: 298px;
 
-}
+
+
 .infoblock .comment{
     background-color: #E2E2E2;
     width: 298px;
@@ -202,13 +213,22 @@ footer img{
     color: #86878B;
 
 }
+
+.customers{
+    padding:0 157px 120px 157px;
+}
 .c_info{
+    padding-top: 22px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+
+
+
 }
 
 
 .c_info .name{
+    padding-top: 8px;
     width: 97px;
     height: 27px;
     font-family: "Open Sans";
@@ -216,25 +236,30 @@ footer img{
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
-    display: flex;
-    align-items: center;
-    text-align: end;
     color: #333333;
+    float: right;
 }
 .c_info .work{
-    width: 59px;
     height: 19px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: #86878B;
 
+
 }
+
+.c_descr{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+
+}
+
 
 
 /* @font-face {
