@@ -1,6 +1,176 @@
 body{
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;}
+nav{
+    height: 70px;
+    background-color: black;
+    padding: 0 109px 0 109px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header{
+    background: url(../img/town_up.png);
+    max-height: 600px;
+    width: 100%;
+    
+}
+
+header .gray_bg{
+    display: flex;
+    height: 600px;
+}
+.head_descr{
+    padding-top: 109px;
+    padding-left: 110px;
+}
+.head_descr h2{
+    width: 129px;
+    height: 70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: #fff;
+    margin: 0;
+}
+.head_title{
+    margin: 32px 0;
+    width: 544px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+    }
+.head_hr{
+    width: 64px;
+    border: 1px solid #FFFFFF;
+    margin-left: 0;
+}
+.head_subtitle{
+    width: 282px;
+    height: 38px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 39px 0;
+    }
+.a_button{
+    width: 135px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.a_button a{
+
+font-family: "Open Sans";
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.head_form_block{
+width: 100%;
+padding-top: 111px;
+padding-right: 111px;
+}
+.head_form{
+    float: right;
+    max-width: 370px;
+    height: 370px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    /* margin: 0; */
+    text-align: center;
+}
+.head_form p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 56px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+/* .head_form input{
+    border: 0;
+    border-bottom: 1px #000;
+
+} */
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.margin_top44{
+    margin-top: 44px;
+}
+.input-field{
+    
+    width: 252px;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding:16px 0;
+    color: #BDBDBD;
+    
+}
+
+.start_button{
+    width: 100%;
+    height: 54px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 64px;
+    background: #EC7979;
+    padding: 0;
+    border: 0;
+    border-radius: 0px 0px 8px 8px;
+    }
+.links a{
+    padding-left: 48px;
+    text-decoration: none;
+    width: 76px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.color_orange{
+    color: #EC7979;
+}
+
 .awesome{
     padding: 0 109px 109px 109px ;
     margin: 0 auto;
@@ -17,7 +187,7 @@ body{
     text-align: center;
     color: #212121;
 }
-hr{
+.block_hr{
     width: 64px;
     border: 1px solid #E72424;
     margin-bottom: 30px;
@@ -86,6 +256,10 @@ hr{
 .gray_bg{
     background-color: rgba(0,0,0,0.65);
     width: 100%;
+ 
+}
+
+.min_height326{
     min-height: 326px;
 }
 
