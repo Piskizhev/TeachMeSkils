@@ -146,6 +146,45 @@ padding-right: 111px;
     border: 0;
     border-radius: 0px 0px 8px 8px;
     }
+.media{
+    width: 100%;
+    max-height: 110px;
+    padding: 14px 111px 17px 111px;
+    background: #F8EFEF;
+    display: flex;
+}
+.media_descr{
+    width: 365px;
+
+}
+.media_title{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    margin: 0;
+}
+
+.media_text{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    margin: 14px 0 0 0;
+}
+.media_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.media_icons img{
+    width: 684px;
+    margin-left: 129px;
+}
 .links a{
     padding-left: 48px;
     text-decoration: none;
